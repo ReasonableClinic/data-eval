@@ -1,0 +1,2 @@
+{"base_id": "S002", "trial_ids": ["DEMO-HYPER-01", "DEMO-NSCLC-01"], "query_cond": "demo", "query_term": "", "n_found": 2}
+{"base_id": "C001", "trial_ids": ["DEMO-NSCLC-01", "DEMO-HYPER-01"], "query_cond": "demo", "query_term": "", "n_found": 2}

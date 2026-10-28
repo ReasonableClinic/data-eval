@@ -1,0 +1,48 @@
+# Whitelist: only code and docs go into git. Data reaches the team as handoff zips (make_handoff.py),
+# never through the repository. Private files (test gold, ID maps, generation specs) stay out by default.
+# Check before a push:  git status --ignored  /  git check-ignore -v <file>
+
+/*
+!/.gitignore
+!/README.md
+!/datakit.py
+!/validate.py
+!/make_handoff.py
+!/docs/
+!/generation/
+!/stage2/
+
+# generation: scripts and prompts only (specs, hand-written records and logs reveal the design of the test set)
+/generation/*
+!/generation/build.py
+!/generation/generate_patients.py
+!/generation/enrich_patients.py
+!/generation/prompt_*.md
+
+# stage2: code, prompts, READMEs, small fixtures
+/stage2/runs/
+/stage2/ko_cache.json
+/stage2/variants/*/
+/stage2/variants/*.json
+/stage2/variants/*.txt
+/stage2/variants/make_edits_test.py
+# variants/README.md is a work log that names test variant targets
+/stage2/variants/README.md
+/stage2/trec_eval/*
+!/stage2/trec_eval/README.md
+!/stage2/trec_eval/compare_trec.py
+!/stage2/trec_eval/trialgpt/
+/stage2/trec_eval/trialgpt/*
+!/stage2/trec_eval/trialgpt/trialgpt_eval.py
+
+# everywhere
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.bak
+.DS_Store
+.venv/
+id_map*
+*private*

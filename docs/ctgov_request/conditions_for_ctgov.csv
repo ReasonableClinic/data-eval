@@ -1,0 +1,51 @@
+﻿base_id,split,condition,query_cond,query_term,age,age_group,sex,trials_wanted,note
+S001,dev,acute alcoholic pancreatitis,acute pancreatitis,,54,adult,male,3,
+S002,dev,Graves disease (new diagnosis),Graves disease,,29,adult,female,3,
+S003,dev,"nephrotic syndrome, likely minimal change disease",nephrotic syndrome,children,7,child,male,3,소아 시험 필요
+S004,dev,urothelial carcinoma of the bladder,urothelial carcinoma,muscle-invasive bladder,68,adult,male,3,
+S005,dev,"migraine with aura, episodic",migraine,aura OR prevention,34,adult,female,3,
+S006,dev,rhino-orbital mucormycosis,mucormycosis,,45,adult,male,3,희귀 감염. 시험이 거의 없을 수 있음
+S007,dev,infantile hypertrophic pyloric stenosis,hypertrophic pyloric stenosis,,3개월,infant,male,3,영아. 모집 중 시험이 없을 가능성 높음
+S008,dev,idiopathic pulmonary fibrosis,idiopathic pulmonary fibrosis,,60,adult,female,3,
+S009,dev,infectious mononucleosis (EBV),infectious mononucleosis,Epstein-Barr,19,adult,male,3,급성 감염. 시험이 거의 없을 수 있음
+S010,dev,"rhegmatogenous retinal detachment, right eye",retinal detachment,rhegmatogenous,73,adult,male,3,수술 관련 시험 위주일 수 있음
+C001,dev,"stage IV lung adenocarcinoma, EGFR/ALK negative, PD-L1 high",non-small cell lung cancer,previously treated OR second line,67,adult,male,3,"KRAS G12V, PD-L1 높음, 백금 치료 후 진행, 면역항암제 미투여"
+C002,dev,"metastatic HR+/HER2- breast cancer, bone metastases",breast cancer,HR-positive HER2-negative metastatic,52,adult,female,3,"CDK4/6 억제제 후 진행, ESR1·PIK3CA 변이"
+C003,dev,"type 2 diabetes, inadequately controlled",type 2 diabetes,inadequately controlled,58,adult,male,3,메트포르민+설포닐우레아 사용 중
+C004,dev,"chronic kidney disease stage 3b, diabetic kidney disease",diabetic kidney disease,chronic kidney disease,71,adult,female,3,"eGFR 약 38, 알부민뇨 심함"
+C005,dev,"heart failure with reduced ejection fraction, NYHA III",heart failure with reduced ejection fraction,,64,adult,male,3,"EF 28%, NYHA III"
+C006,dev,"metastatic colorectal cancer, KRAS G12D, liver metastases",colorectal cancer,metastatic KRAS,59,adult,female,3,"KRAS G12D, 1차 치료 후 진행"
+C007,dev,COPD GOLD 3 with frequent exacerbations,COPD,exacerbations,69,adult,male,3,"호산구 300 이상, 잦은 악화"
+C008,dev,"seropositive rheumatoid arthritis, inadequate response to methotrexate",rheumatoid arthritis,methotrexate inadequate response,46,adult,female,3,
+C009,dev,"hepatocellular carcinoma, BCLC B, chronic hepatitis B cirrhosis Child-Pugh A",hepatocellular carcinoma,intermediate stage OR TACE,61,adult,male,3,"B형간염 간경변, Child-Pugh A"
+C010,dev,early Alzheimer's disease (mild cognitive impairment stage),Alzheimer disease,early OR mild cognitive impairment,74,adult,female,3,
+E001,test,HER2-positive advanced gastric adenocarcinoma,gastric cancer,HER2-positive,62,adult,male,3,
+E002,test,locally advanced pancreatic adenocarcinoma,pancreatic cancer,locally advanced,66,adult,female,3,
+E003,test,"high-grade serous ovarian cancer, germline BRCA1 mutation, platinum-sensitive recurrence",ovarian cancer,BRCA recurrent platinum-sensitive,57,adult,female,3,
+E004,test,"metastatic castration-resistant prostate cancer, bone metastases",prostate cancer,metastatic castration-resistant,71,adult,male,3,
+E005,test,BRAF V600E metastatic melanoma,melanoma,BRAF,48,adult,male,3,면역항암제(adjuvant) 대장염으로 중단 이력
+E006,test,metastatic clear cell renal cell carcinoma,renal cell carcinoma,clear cell previously treated,60,adult,male,3,면역항암제+TKI 후 진행
+E007,test,"glioblastoma, IDH-wildtype, MGMT unmethylated",glioblastoma,MGMT unmethylated,55,adult,male,3,
+E008,test,relapsed multiple myeloma,multiple myeloma,relapsed,69,adult,female,3,
+E009,test,relapsed diffuse large B-cell lymphoma,diffuse large B-cell lymphoma,relapsed OR refractory,64,adult,male,3,
+E010,test,extensive-stage small cell lung cancer,small cell lung cancer,extensive stage,70,adult,male,3,치료한 뇌전이 있음
+E011,test,"HPV-positive oropharyngeal squamous cell carcinoma, recurrent",head and neck squamous cell carcinoma,recurrent oropharyngeal HPV,58,adult,male,3,
+E012,test,"recurrent endometrial cancer, MSI-high",endometrial cancer,MSI-high OR mismatch repair deficient,63,adult,female,3,
+E013,test,obesity (BMI 38) without diabetes,obesity,,41,adult,female,3,당뇨 없음
+E014,test,metabolic dysfunction-associated steatohepatitis with stage F3 fibrosis,nonalcoholic steatohepatitis,MASH fibrosis,54,adult,male,3,F3 섬유화. 검색어로 NASH와 MASH 둘 다 시도
+E015,test,resistant hypertension,resistant hypertension,,57,adult,female,3,
+E016,test,persistent atrial fibrillation,atrial fibrillation,,76,adult,male,3,"출혈 이력, 고령"
+E017,test,severe eosinophilic asthma,asthma,severe eosinophilic,39,adult,female,3,
+E018,test,moderately to severely active ulcerative colitis,ulcerative colitis,moderate to severe,31,adult,male,3,생물학적제제 실패
+E019,test,ileocolonic Crohn's disease with perianal fistula,Crohn disease,perianal fistula,24,adult,female,3,
+E020,test,moderate-to-severe atopic dermatitis,atopic dermatitis,moderate to severe adult,27,adult,male,3,
+E021,test,systemic lupus erythematosus with class IV lupus nephritis,lupus nephritis,,33,adult,female,3,
+E022,test,relapsing-remitting multiple sclerosis,multiple sclerosis,relapsing,36,adult,female,3,
+E023,test,Parkinson's disease with motor fluctuations,Parkinson disease,motor fluctuations,68,adult,male,3,
+E024,test,treatment-resistant major depressive disorder,treatment-resistant depression,,45,adult,female,3,
+E025,test,postmenopausal osteoporosis with vertebral fracture,postmenopausal osteoporosis,fracture,72,adult,female,3,
+E026,test,recurrent gout with tophi,gout,,51,adult,male,3,"통풍결절, CKD 3a"
+E027,test,"type 1 diabetes, diagnosed 2 years ago",type 1 diabetes,children OR pediatric,11,child,female,3,소아 시험 필요
+E028,test,persistent moderate asthma in a child,asthma,children OR pediatric,9,child,male,3,소아 시험 필요
+E029,test,gestational diabetes at 28 weeks of pregnancy,gestational diabetes,,32,adult,female,3,임신부. 임신부를 받는 시험 필요
+E030,test,"HIV infection on antiretroviral therapy, virally suppressed",HIV,virologically suppressed,40,adult,male,3,"ART 중, 바이러스 억제 상태"
