@@ -1,8 +1,8 @@
-# data-eval — 합성 환자 데이터, 정답, 채점 (비공개)
+# data-eval — 합성 환자 데이터, 정답, 채점
 
 임상시험 매칭 프로젝트의 합성 환자(②), 정답(④), 변형 세트, 채점 도구를 만드는 레포입니다. 형식은 `docs/common_format_v0.5.md`(공통 형식 v0.5)를 따릅니다.
 
-> **접근은 데이터 담당만.** 에이전트 개발자는 이 레포를 보지 않습니다 (test 정답 원칙). Organization 기본 권한은 No permission, Team_F에도 권한을 주지 않습니다. 팀에 필요한 것(dev 데이터·정답, 채점 스크립트, 키트)은 `make_handoff.py` 등이 만든 zip으로 전달합니다.
+> **평가자 안내:** test 입력·정답(기본 30명 + 변형 34명), 변형 순위 정답, Agent 2 test 근거 v14.9, Agent 3 test 출력·캐시, 채점 기록은 이 레포 Release의 `test_pack.zip`에 있습니다. 실행 방법은 backend 레포의 [REPRODUCE.md](https://github.com/ReasonableClinic/Backend/blob/main/REPRODUCE.md)를 보고, 푼 폴더를 `TRIALTRACE_TEST_DIR`로 지정해 `bash reproduce.sh`를 돌립니다. (개발 기간에는 test 정답 원칙에 따라 데이터 담당만 접근했습니다.)
 
 ## 레포에 있는 것과 없는 것
 
